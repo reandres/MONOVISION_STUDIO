@@ -123,3 +123,68 @@ html {
 	font-size: 10px;
 	color: var(--light-color);
 }
+
+
+.about {
+	background-color: var(--light-color);
+	padding-top: 80px;
+}
+
+.about__title {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 12px;
+	color: var(--dark-color);
+}
+
+.about__text {
+	width: 1100px;
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 40px;
+	color: var(--dark-color);
+}
+
+.about__text span {
+	color: #a5a5a5;
+}
+
+.services {
+	display: flex;
+	column-gap: 10px;
+	margin-top: 80px;
+}
+
+.services__items {
+	width: 50%;
+}
+
+.services__items ul {
+	padding: 0;
+	margin-top: 20px;
+}
+
+.services__items li {
+	margin-top: 10px;
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--dark-color);
+	
+}
+
+.services__items-subtitle{
+	font-style: italic;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--dark-color);
+
+}
+
+.services__text {
+	width: 50%;
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 0.4px;
+	color: var(--dark-color);
+}
