@@ -88,12 +88,12 @@ html {
 	font-size: 16px;
 	color: var(--light-color);
 	cursor: pointer;
+	transition: all 0.3s ease-out;
 }
 
 .btn:hover {
-	box-shadow: 0 0 15px var(--light-color);;
-	border-color: var(--light-color);
-	transform: scale(1.05)
+	box-shadow: 5px 5px 10px 0 rgba(255, 255, 255, 0.62);
+	font-weight: 500;
 }
 
 .promo_address {
