@@ -52,6 +52,21 @@ html {
 	color: var(--dark-color);
 }
 
+.title span {
+	position: relative;
+}
+
+.title span::after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -1px;
+	right: 0;
+	width: 75px;
+	height: 2px;
+	background-color: #000;
+}
+
 .promo {
 	position: relative;
 	min-height: 100vh;
