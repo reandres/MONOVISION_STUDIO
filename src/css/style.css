@@ -184,12 +184,35 @@ html {
 }
 
 .services__items li {
+	position: relative;
 	margin-top: 10px;
 	list-style-type: none;
 	font-weight: 400;
 	font-size: 16px;
 	color: var(--dark-color);
 	
+}
+
+.services__items li:first-child::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 15px;
+    height: 15px;
+	background: url('../icons/camera.svg') center center / cover no-repeat;
+	left: -30px;
+	top: 2px;
+}
+
+.services__items li:nth-child(3)::before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 15px;
+    height: 15px;
+	background: url('../icons/edit.svg') center center / cover no-repeat;
+	left: -30px;
+	top: 2px;
 }
 
 .services__items-subtitle{
