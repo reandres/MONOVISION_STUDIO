@@ -97,6 +97,7 @@ html {
 }
 
 .promo_address {
+	position: relative;
 	margin-top: 100px;
 	font-weight: 100;
 	font-size: 16px;
@@ -110,6 +111,17 @@ html {
 .promo_address a {
 	color: var(--light-color);
 	text-decoration: none;
+}
+
+.promo_address::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: -45px;
+	top: -17px;
+	width: 40px;
+	height: 49px;
+	background: url('../icons/arrow.svg') center center / cover no-repeat
 }
 
 .keywords {
