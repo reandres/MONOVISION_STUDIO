@@ -164,6 +164,11 @@ body ::selection {
 	color: var(--light-color);
 }
 
+@media screen and (max-width: 1440px) {
+	.keywords {
+		padding: 0 20px;
+	}
+}
 
 .about {
 	background-color: var(--light-color);
@@ -183,6 +188,12 @@ body ::selection {
 	font-weight: 400;
 	font-size: 40px;
 	color: var(--dark-color);
+}
+
+@media screen and (max-width: 1440px) {
+	.about__text {
+		width: 100%;
+	}
 }
 
 .about__text span {
