@@ -311,6 +311,12 @@ body ::selection {
 	}
 }
 
+@media screen and (max-width: 576px) {
+	.services {
+		margin-top: 20px;
+	}
+}
+
 .services__items {
 	width: 50%;
 }
