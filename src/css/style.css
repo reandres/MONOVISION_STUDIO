@@ -92,6 +92,12 @@ body ::selection {
 	}
 }
 
+@media screen and (max-width: 576px) {
+	.title {
+		font-size: 24px;
+	}
+}
+
 .promo {
 	position: relative;
 	min-height: 100vh;
@@ -413,6 +419,13 @@ body ::selection {
 	.works__grid {
 		gap: 30px 20px;
 		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.works__grid {
+		grid-template: repeat(4, 1fr) 1.5fr / 1fr;
+		gap: 30px 0px;
 	}
 }
 
