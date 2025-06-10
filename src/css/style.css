@@ -53,6 +53,7 @@ img {
 
 html {
 	font-family: "Inter", sans-serif;
+	scroll-behavior: smooth;
 }
 
 body ::selection {
@@ -615,7 +616,6 @@ body ::selection {
 	color: var(--light-color);
 	text-decoration: none;
 }
-
 
 @media screen and (max-width: 768px) {
 	.footer__tel {
