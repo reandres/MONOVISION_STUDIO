@@ -566,7 +566,6 @@ body ::selection {
 	.footer {
 		display: block;
 		padding-top: 30px;
-		padding-bottom: 40px;
 	}
 }
 
@@ -606,14 +605,30 @@ body ::selection {
 	}
 }
 
+@media screen and (max-width: 576px) {
+	.footer__address {
+		justify-content: center;
+	}
+}
+
 .footer__tel {
 	color: var(--light-color);
 	text-decoration: none;
 }
 
+
 @media screen and (max-width: 768px) {
 	.footer__tel {
-		display: block;
+		display: flex;
 		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.footer__social,
+	.footer__address,
+	.footer__tel {
+		display: flex;
+		justify-content: center;
 	}
 }
