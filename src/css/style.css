@@ -280,6 +280,12 @@ body ::selection {
 	padding-top: 80px;
 }
 
+@media screen and (max-width: 576px) {
+	.about {
+		padding-top: 40px;
+	}
+}
+
 .about__title {
 	font-style: italic;
 	font-weight: 400;
